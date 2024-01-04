@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0px;
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+header .div2{
+    display: flex;
+}
+header > div{
+    height: 100%;
+}
+header .div1{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 20px;
+}
+header .div2{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+header .div3{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+}
+header .div3 a{
+    text-decoration: none;
+    color: #ADEFD1FF;
+}
+header .div3 a button{
+    background-color: #FFE77AFF;
+    color: #2C5F2DFF;
+    padding: 4px 6px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+}
+main section{
+    height: 500px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(30,1fr);
+}
+main .sec1 .pic{
+    grid-column: -2/-17;
+    grid-row: 8/28;
+    /* object-fit: cover; */
+}
+main .sec1 .pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sec1 .logo{
+    grid-column: 4/ -20;
+    grid-row: 11/13;
+    /* background-color: red; */
+    color: #00203FFF;
+    font-size: 35px;
+    font-family: 'Black Ops One', cursive;
+    display: flex;
+    align-items: center;
+}
+.sec1 .sub{
+    grid-column: 4/-22;
+    grid-row: 13/14;
+    /* background-color: black; */
+    /* color: #fff; */
+    color: #00203FFF;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 3px;
+}
+.sec1 .text{
+    grid-column: 4/-18;
+    grid-row: 15/28;
+    /* background-color: aqua; */
+    color: #7f5a85;
+    font-size: 17px;
+    font-weight: 600;
+}
+.sec1 .logo span{
+    background-color: red;
+    color: #fff;
+    padding: 0px 3px;
+    border-radius: 10px;
+}
