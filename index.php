@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BD TRANSPORT</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/others.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/others.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
